@@ -149,7 +149,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 if(snapshot.data is LoadingMoreHomeState)
                   const Padding(
-                    padding: EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8),
                     child: CircularProgressIndicator(),
                   )
               ],
